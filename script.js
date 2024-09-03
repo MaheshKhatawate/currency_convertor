@@ -39,7 +39,7 @@ const updateFlag =(element)=>{
 
 //this to perform all the operation to do conversion 
 btn.addEventListener("click",async (evt)=>{
-    evt.preventDefault();
+    evt.preventDefault();//this is to preven from reloading the form
     let amount = document.querySelector(".amount input");
     let amtVal=amount.value;
     console.log(amtVal);
